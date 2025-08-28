@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Landing page da nossa equipe - Portfólio e projetos.">
+  <title>Equipe LMB | Portfólio</title>
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <nav class="nav">
+      <h1 class="logo">Equipe LMB</h1>
+      <button class="nav__toggle" aria-label="Abrir menu">☰</button>
+      <ul class="nav__menu">
+        <li><a href="#hero">Início</a></li>
+        <li><a href="#sobre">Equipe</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projetos">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section id="hero" class="hero">
+    <h2>Bem-vindo à Equipe LMB</h2>
+    <p>Transformando ideias em soluções digitais 🚀</p>
+  </section>
+
+  <!-- Sobre -->
+  <section id="sobre" class="sobre">
+    <h2>Sobre a Equipe</h2>
+    <div class="team">
+      <div class="team__card">
+
+        <h3>Integrante 1 - Linnik Patricio</h3>
+        <img src="linnik.jpg" alt="Foto integrante linnik" width="200" height="200">
+        <p>Frontend Developer</p>
+      </div>
+      <div class="team__card">
+        
+        <h3>Integrante 2 - Brenner Vinicius</h3>
+        <img src="Brenner.jpg" alt="Foto integrante Brenner" width="200" height="200">
+        <p>Backend Developer</p>
+      </div>
+      <div class="team__card">
+        
+        <h3>Integrante 3 - Matheus Aurelio</h3>
+        <img src="Matheus.jpg" alt="Foto integrante Matheus" width="200" height="200">
+        <p>Designer</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section id="skills" class="skills">
+    <h2>Stacks</h2>
+    <ul>
+      <li>HTML</li>
+      <li>CSS</li>
+      <li>JavaScript</li>
+      <li>Python</li>
+      <li>Java</li>
+      <li>Banco de Dados</li>
+      <li>Git/GitHub</li>
+      
+    </ul>
+  </section>
+
+  <!-- Projetos -->
+  <section id="projetos" class="projetos">
+    <h2>Projetos</h2>
+    <div class="projects">
+      <div class="project__card">
+        <h3>Projetos Desenvolvidos</h3>
+        <p>Desenvolvimento de um sistema de ouvidoria</p>
+        <p>Desenvolvimento de um sistema pra hotel</p>
+        <p>Desenvolvimento de um sistema pra supermercado</p>
+        <a href="#">Ver mais</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contato -->
+  <section id="contato" class="contato">
+    <h2>Contato</h2>
+    <form id="form-contato">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu email" required>
+      <textarea name="mensagem" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Equipe LMB. Todos os direitos reservados.</p>
+  </footer>
+
+</body>
+</html>
