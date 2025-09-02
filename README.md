@@ -32,6 +32,6 @@ A landing page possui:
 
 Equipe LMB:
 
-Linnik Patricio – Frontend Developer
-Brenner Vinicius – Backend Developer
-Matheus Aurelio – Full Stack Developer
+- Linnik Patricio – Frontend Developer
+- Brenner Vinicius – Backend Developer
+- Matheus Aurelio – Full Stack Developer
